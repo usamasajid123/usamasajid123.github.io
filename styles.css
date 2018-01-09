@@ -1,0 +1,95 @@
+html{
+	background: url(background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	animation: typing-text 3s steps(100);
+	overflow: hidden;
+	white-space: nowrap;
+	color: #bbcce8;
+}
+
+h3,p{
+	color: #bbcce8;	
+}
+
+.fade-in {
+  opacity:0;
+  opacity: 1 \9; /*just in case ie*/
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+
+.fade-in.one {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.info-box{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 30px;
+	width: 500px;
+	height: 600px;
+	background-color: rgba(0,0,0,0,4);
+	border: 1px solid black;	
+	padding: 40px;
+	filter: alpha(opacity=60); 
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+@keyframes typing-text { 
+	from{
+		width: 0;
+	}
+	to{
+		width: 385px;
+	}
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+.profile{
+	border-radius: 50%;
+	opacity: 3;
+}
+
+.links{
+	text-align: right;
+	letter-spacing: 10px;
+}
+
+.links a{
+	
+	color: white;
+}
+
