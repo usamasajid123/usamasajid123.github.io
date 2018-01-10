@@ -1,5 +1,5 @@
 html{
-	background: url(background.jpg) no-repeat center center fixed;
+	background: url(mountain.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -10,12 +10,14 @@ h1{
 	animation: typing-text 3s steps(100);
 	overflow: hidden;
 	white-space: nowrap;
-	color: #bbcce8;
+	color: #e5dee3;
 }
 
 h3,p{
-	color: #bbcce8;	
+	color: #e5dee3;	
+	font-size: 120%;
 }
+
 
 .fade-in {
   opacity:0;
@@ -59,7 +61,7 @@ h3,p{
 	padding: 40px;
 	filter: alpha(opacity=60); 
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 40px;
 	text-align: center;
 }
