@@ -6,6 +6,8 @@ html{
 	background-size: cover;
 }
 
+h1,h3,p{font-family: "Gill Sans", sans-serif;}
+
 h1{
 	animation: typing-text 3s steps(100);
 	overflow: hidden;
