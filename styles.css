@@ -96,3 +96,42 @@ h3,p{
 	color: white;
 }
 
+
+.item {
+		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		margin-bottom: 40px;
+	}
+
+		.item header {
+			background: #fff;
+			margin: 0;
+			padding: 1em 1em 1em 1em;
+			font-size: 0.8em;
+		}
+
+			.item header h3 {
+				font-size: 1em;
+        line-height: 1.0em;
+			}
+
+      .item header p {
+        font-size: 0.9em;
+        line-height: 2.0em;
+      }
+
+hr.style8 {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+hr.style8:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+.Projects{
+	text-align: center;
+	color: #e5dee3;
+}
